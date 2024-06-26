@@ -38,7 +38,8 @@ public class ArriendoLocalComida extends Arriendo {
     public void establecerIva(double x){
         iva = x;
     }
-    
+    // Este establecerArriendo mensual se encarga de sobre escribir dentro 
+    // de la super clase el valor establecido para arriendo mensual.
     @Override
     public void establecerArriendoMensual(){
         double subtotal = obtenerValorAgua() + obtenerValorLuz() + 

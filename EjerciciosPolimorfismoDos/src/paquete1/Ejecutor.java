@@ -43,7 +43,9 @@ public class Ejecutor {
         listaArriendos.add(arriendoComida);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
-        
+        // Dentro de este ciclo se hace bucle con el arraylist a pesar de no saber
+        // de que tipo de dato esta en el pero se llama al metodo abstracto
+        // ya que esta en todas las clases hijas
         for (int i = 0; i < listaArriendos.size(); i++) {
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
