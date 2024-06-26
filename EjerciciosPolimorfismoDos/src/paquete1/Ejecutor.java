@@ -41,6 +41,7 @@ public class Ejecutor {
         arriendoSesiones.establecerValorAmplificacion(20); // en $
         
         listaArriendos.add(arriendoComida);
+        listaArriendos.add(arriendoComida2);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
         // Dentro de este ciclo se hace bucle con el arraylist a pesar de no saber
