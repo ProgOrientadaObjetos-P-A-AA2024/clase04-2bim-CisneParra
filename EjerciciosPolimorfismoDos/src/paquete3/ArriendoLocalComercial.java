@@ -13,7 +13,7 @@ import paquete2.Arriendo;
  */
 public class ArriendoLocalComercial extends Arriendo {
 
-    protected double valorAdicionalFijo;
+    private double valorAdicionalFijo;
 
     public ArriendoLocalComercial(String nombre, double cuotaB) {
         super(nombre, cuotaB);
